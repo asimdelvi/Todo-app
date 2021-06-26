@@ -15,3 +15,5 @@ Requirements:
   ```
 
   For Ubuntu users, to install mysqlclient for python read [this](https://pypi.org/project/mysqlclient/)
+
+![Preview of the Site](Screenshot%20from%202021-06-26%2017-13-58.png)
