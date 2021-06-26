@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-q(=b9glkfzl^xl--r1^@nh!t5911*t)!64lx82ubh_(k7+@8f3'
+SECRET_KEY = 'django-insecure-q(=b9pndrzl^xl--r1^@nh!t5911*t)!64lx82ubh_(k7+@8f3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'toDo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'tododb',
-        'USER': 'root',
-        'PASSWORD': '@&!m30112001Asim',
+        'NAME': 'your_database_name',
+        'USER': 'database_user_name',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
-        'PORT': '3306',
+        'PORT': 'port_number',
     }
 }
 
@@ -113,7 +113,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'Asia/Kolkata'
+TIME_ZONE = 'Asia/Kolkata' # India
 
 USE_I18N = True
 
